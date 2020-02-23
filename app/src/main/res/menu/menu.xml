@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/resumeCart"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        android:title="העגלה הנוכחית שלי">
+    </item>
+    <item
+        android:id="@+id/createinstance"
+        android:orderInCategory="2"
+        app:showAsAction="never"
+        android:title="צור עגלה חדשה">
+    </item>
+
+    <item
+        android:id="@+id/logoutMenu"
+        android:orderInCategory="3"
+        app:showAsAction="never"
+        android:title="התנתק">
+    </item>
+
+
+
+</menu>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <LinearLayout
+        android:id="@+id/linear_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layoutDirection="rtl"
+        android:layout_gravity="right"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TitleTv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed-light"
+            android:gravity="center"
+            android:text="רשימת קניות ראשית"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/Uncheck_all"
+            android:layout_width="71dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="נקה הכל"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/addeditText"
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"
+            android:layout_gravity="right"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="שם המוצר"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/Quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:ems="10"
+            android:gravity="right"
+            android:hint="כמות"
+            android:inputType="textPersonName"
+            android:maxLength="5" />
+
+
+        <Button
+            android:id="@+id/AddBtn"
+            android:layout_width="211dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="הוסף"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
